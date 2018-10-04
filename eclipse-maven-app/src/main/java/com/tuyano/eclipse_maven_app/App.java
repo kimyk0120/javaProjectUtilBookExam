@@ -8,6 +8,17 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        new App().printMessage("YK");
     }
+    
+    public String getMessage(String name){
+    	return "Maven world , " + name;
+    }
+    
+    public void printMessage(String name){
+    	System.out.println("App Class");
+    	System.out.println(this.getMessage(name));
+    	System.out.println(".App Class");
+    }
+    
 }
