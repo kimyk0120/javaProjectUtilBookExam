@@ -10,14 +10,13 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
+	
+	private App app = null;
+	
+	public AppTest( String testName )
+    {	
         super( testName );
+        app = new App();
     }
 
     /**
@@ -35,4 +34,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    
+    public void testGetMessage(){
+    	String name = "Youngkim";
+    	String msg = "Maven world , yk";
+    	assertEquals(app.getMessage("yk"),msg);
+    	
+    }
+    
 }
