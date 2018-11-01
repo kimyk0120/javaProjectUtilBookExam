@@ -1,5 +1,6 @@
 Manifest-Version: 1.0
 Built-By: youngkwangkim
+Class-Path: aspectjrt-1.6.10.RELEASE.jar mvn-lib-1.0-SNAPSHOT.jar
 Build-Jdk: 1.8.0_101
 Created-By: Maven Integration for Eclipse
 Main-Class: com.tuyano.eclipse_maven_app.App
