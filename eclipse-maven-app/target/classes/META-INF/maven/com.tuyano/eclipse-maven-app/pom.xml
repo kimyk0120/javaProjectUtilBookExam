@@ -35,9 +35,39 @@
 	  <version>1.0-SNAPSHOT</version>
     </dependency>
     
+    <!-- https://mvnrepository.com/artifact/org.eclipse.persistence/javax.persistence -->
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>javax.persistence</artifactId>
+	    <version>2.2.0</version>
+	</dependency>
+	
+	<!-- jpa implementation -->
+	<dependency>
+	  <groupId>org.eclipse.persistence</groupId>
+	  <artifactId>org.eclipse.persistence.jpa</artifactId>
+	  <version>2.7.0</version>
+	</dependency>
+	
+	<!-- h2 -->
+	<dependency>
+	  <groupId>com.h2database</groupId>
+	  <artifactId>h2</artifactId>
+	  <version>1.4.196</version>
+	</dependency>
+    
   </dependencies>
   
   <build>
+  
+    <!-- add resource file -->
+    <resources>
+    	<resource>
+    		<directory>src/main/resources</directory>
+    		<filtering>true</filtering>
+    	</resource>
+    </resources>
+  
   	<plugins>
   		<plugin>
   			<groupId>org.codehaus.mojo</groupId>
@@ -71,7 +101,6 @@
   		<url>http://repo.spring.io/release</url>
   	</repository>
   </repositories>
-  
   
   
 </project>
