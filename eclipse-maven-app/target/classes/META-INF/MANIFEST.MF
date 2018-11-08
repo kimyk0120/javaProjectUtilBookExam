@@ -1,11 +1,5 @@
 Manifest-Version: 1.0
 Built-By: youngkwangkim
-Class-Path: aspectjrt-1.6.10.RELEASE.jar mvn-lib-1.0-SNAPSHOT.jar java
- x.persistence-2.2.0.jar org.eclipse.persistence.jpa-2.7.0.jar org.ecl
- ipse.persistence.asm-2.7.0.jar org.eclipse.persistence.antlr-2.7.0.ja
- r javax.json-1.0.4.jar org.eclipse.persistence.jpa.jpql-2.7.0.jar org
- .eclipse.persistence.core-2.7.0.jar h2-1.4.196.jar
 Build-Jdk: 1.8.0_101
 Created-By: Maven Integration for Eclipse
-Main-Class: com.tuyano.eclipse_maven_app.App
 

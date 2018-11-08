@@ -1,4 +1,4 @@
-package com.tuyano;
+package com.tuyano.eclipse_maven_app;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,12 +15,21 @@ public class Person {
 	private String mail;
 	private String age;
 	
-	public Person(String name, String mail, String age) {
+	
+	public Person() {
 		super();
+		this.name = "";
+		this.mail ="";
+		this.age = "";
+	}
+	
+
+	public Person(String name, String mail, String age) {
 		this.name = name;
 		this.mail = mail;
 		this.age = age;
 	}
+	
 	
 	
 	@Override
