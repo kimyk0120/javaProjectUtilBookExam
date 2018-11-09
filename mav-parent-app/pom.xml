@@ -11,6 +11,10 @@
 
   <name>mvn-parent-app</name>  
   <url>http://maven.apache.org</url>
-
+  
+  <modules>
+    <module>mvn-sub-app</module>
+    <module>mvn-sub2-app</module>
+  </modules>
   
 </project>
