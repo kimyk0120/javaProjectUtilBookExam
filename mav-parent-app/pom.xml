@@ -17,4 +17,14 @@
     <module>mvn-sub2-app</module>
   </modules>
   
+   <dependencies>
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version><!-- version 생략시 최신버전 -->
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
 </project>
