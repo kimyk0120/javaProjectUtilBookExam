@@ -29,6 +29,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+task doit(dependsOn:[compileJava, jar]){
+	doLast{
+		printLn "*** compileed and created Jar!"
+	}
+}
+
+
 task hello{
 	doLast{
 		def total = 0;
